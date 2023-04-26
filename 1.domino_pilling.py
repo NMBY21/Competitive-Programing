@@ -1,0 +1,5 @@
+matrix = input()
+x = matrix.index(" ")
+m = int(matrix[:x])
+n = int(matrix[x+1:])
+print(m*n // 2)
