@@ -1,0 +1,20 @@
+while True:
+    n = int(input("enter number: "))
+    m = int(input("enter number: "))
+    a = (input("enter sign: "))
+    if a == "+":
+        print(n+m)
+    elif a=="*":
+        print(n*m)
+    elif a=="-":
+        print(n-m)
+    elif a == '/':
+        if m != 0:
+            print(n / m)
+        else:
+            print("Error: Division by zero")
+    else:
+        print("Invalid operator")
+    choice = input("Do you want to continue? (yes/no): ")
+    if choice.lower() != "yes":
+        break
