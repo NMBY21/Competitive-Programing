@@ -1,0 +1,12 @@
+import random 
+n = random.randint(1, 100)
+print(n)
+m = int (input("guess a number: "))
+while n != m :
+    if m > n:
+        print("too high")
+        m = int (input("use another number: "))
+    else:
+        print("too small")
+        m = int(input("use another number: "))
+print("you get it!")
