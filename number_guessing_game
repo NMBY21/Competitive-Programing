@@ -1,0 +1,6 @@
+secret = 3
+guess = int(input("enter number from 1 to 10: "))
+if secret == guess:
+    print("got it!")
+else:
+    print("try another")
