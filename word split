@@ -1,0 +1,4 @@
+n = "i am luca."
+words = n.split(" ")
+for word in words:
+    print(word)
