@@ -1,0 +1,7 @@
+n = "etoi"
+m = ""
+b = ["a", "e", "i", "o", "u"]
+for i in n:
+    if i in b:
+        m += i
+print(len(m))
