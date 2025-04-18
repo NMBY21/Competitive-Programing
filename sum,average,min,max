@@ -1,0 +1,20 @@
+n = [11, 16, 9, 7, 44]
+
+total = 0
+lng = len(n)
+lar = n[0]
+mini = n[0]  
+
+for i in n:
+    total += i
+    if i > lar:
+        lar = i
+    if i < mini:
+        mini = i
+
+ave = total / lng  
+
+print("Sum  = " + str(total))
+print("Ave  = " + str(ave))
+print("Max  = " + str(lar))
+print("Min  = " + str(mini))
