@@ -1,0 +1,13 @@
+n = [1, 2, 6, 9, 2, 0]
+m = 5
+
+found = False
+for i in n:
+    if i == m:
+        found = True
+        break  
+
+if found:
+    print(str(m) + " is in the list!")
+else:
+    print(str(m) + " is not in the list.")
