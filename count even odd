@@ -1,0 +1,11 @@
+n = [1, 2, 6, 9, 2, 10, 5]
+even = []
+odd = []
+
+for i in n:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+print("There are " + str(len(even)) + " evens and " + str(len(odd)) + " odds.")
