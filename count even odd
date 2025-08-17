@@ -1,3 +1,4 @@
+// count even numbers
 n = [1, 2, 6, 9, 2, 10, 5]
 even = []
 odd = []
