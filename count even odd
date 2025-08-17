@@ -1,4 +1,4 @@
-// count even numbers
+// count even and odd numbers
 n = [1, 2, 6, 9, 2, 10, 5]
 even = []
 odd = []
