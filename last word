@@ -1,0 +1,6 @@
+par = "Online Python. compiler (interpreter). to run Python online. Write Python 3. code in this online. editor and run it."
+par1 = par.split(".")
+print(par1)
+for last_word in par1:
+    last_word = last_word.split(" ")
+    print(last_word[-1])
